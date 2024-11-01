@@ -1,0 +1,42 @@
+#slfw-reload-shops-description {
+  display: none; }
+
+.slfw-invalid-input {
+  border-color: #d63638 !important; }
+
+.slfw-request-description {
+  display: block;
+  margin-bottom: .4rem; }
+  .slfw-request-description.error {
+    color: #d63638 !important; }
+
+.slfw-working-day-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center; }
+  .slfw-working-day-input .input-timepicker {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 1em; }
+    .slfw-working-day-input .input-timepicker input {
+      width: 50px !important;
+      padding: 2px !important;
+      text-align: center !important; }
+    .slfw-working-day-input .input-timepicker span {
+      margin: 0 .5em; }
+      .slfw-working-day-input .input-timepicker span.time-separator {
+        margin: 0 1em; }
